@@ -24,7 +24,7 @@ const Navbar = () => {
     return (
         <div>
 
-                    <div>
+                    <div className="  animate__animated animate__zoomInDown animate__repeat-2   ">
         
                     <div className="navbar bg-base-100">
                     <div className="navbar-start">

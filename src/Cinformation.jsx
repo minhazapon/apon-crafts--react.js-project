@@ -21,7 +21,7 @@ const Cinformation = () => {
                <div className=' flex justify-center items-center gap-20 mt-10'>
 
 
-                <div className=' animate__animated animate__flip '>
+                <div className=' animate__animated animate__flip animate__repeat-2 '>
                    <img className=' border-[1px] border-secondary rounded-xl animate__animated animate__rollIn  h-[200px] w-[300px]'
                     src="https://img.freepik.com/free-photo/person-scrapbooking-home_23-2149614045.jpg?t=st=1714127689~exp=1714131289~hmac=c8d4cfe093ec17f4c438db70186e7eae97ff8e22ac4e1945b7b4f0f9b47c8c96&w=740 " alt="" />
                   <p className=' mt-1 mb-1 text-xl'>A craft or trade is a pastime <br></br>or an occupation that requires<br></br> particular skills<br></br>
@@ -34,7 +34,7 @@ const Cinformation = () => {
 
 
                 
-                <div className=' -mb-20 animate__animated animate__flip '>
+                <div className=' -mb-20 animate__animated animate__flip animate__repeat-2 '>
                 <div className=' mt-2 text-white rounded-xl p-3 w-[300px] text-xl bg-violet-800  '>
                         <h1>Arts and crafts describes a wide variety of activities involving making things with one's own hands. Arts and crafts is usually a hobby. Some crafts (art skills) have been practised since preshistoric times</h1>
                     </div>
