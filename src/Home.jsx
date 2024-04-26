@@ -1,5 +1,9 @@
 import Banner from "./Banner";
 
+import 'animate.css';
+import Cinformation from "./Cinformation";
+
+
 
 const Home = () => {
     return (
@@ -7,6 +11,7 @@ const Home = () => {
 
 
                <Banner></Banner>
+               <Cinformation></Cinformation>
             
             
         </div>

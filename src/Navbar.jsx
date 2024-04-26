@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 
+import 'animate.css';
+
 
 
 const Navbar = () => {
@@ -10,6 +12,7 @@ const Navbar = () => {
              <li><NavLink to="/" >Home</NavLink></li>
              <li><NavLink to="/crafts" >crafts Items</NavLink></li>
              <li><NavLink to="/add" >Add Craft Items</NavLink></li>
+             <li><NavLink to="/list" >Crafts List</NavLink></li>
             
     </>
 
@@ -35,7 +38,7 @@ const Navbar = () => {
                       </div>
                       <div className=" flex items-center ">
                         <img className=" h-[50px]" src="https://i.ibb.co/S0PPMXh/handcraft-1.png" alt="" />
-                      <a className="  -ml-2  btn btn-ghost text-xl text-secondary font-bold ">Apon Crafts</a>
+                      <a className="  -ml-2  btn btn-ghost text-3xl text-secondary font-bold ">Apon Crafts</a>
                       </div>
 
 
@@ -46,7 +49,7 @@ const Navbar = () => {
                       </ul>
                     </div>
                     <div className="navbar-end">
-                      <a className="btn bg-secondary text-white  w-[100px] ">Login</a>
+                      <a className="btn bg-secondary text-white  w-[100px] animate__bounceInDown ">Login</a>
                     </div>
                   </div>
                 

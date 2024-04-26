@@ -11,6 +11,7 @@
  import Home from './Home';
 import CraftsItems from './CraftsItems';
 import AddItems from './AddItems';
+import CraftsList from './CraftsList';
  
  
  const router = createBrowserRouter([
@@ -29,6 +30,10 @@ import AddItems from './AddItems';
        {
          path: "/add",
          element: <AddItems></AddItems>,
+       },
+       {
+         path: "/list",
+         element:  <CraftsList></CraftsList> ,
        },
      ],
    },
