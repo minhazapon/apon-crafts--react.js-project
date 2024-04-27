@@ -9,6 +9,19 @@ const Banner = () => {
 
         <div>
 
+          <div className=' mb-10 mt-10'>
+                 <video className="    animate__animated animate__flip animate__repeat-2 h-full w-full rounded-lg" controls>
+             <source 
+             src="  https://assets.mixkit.co/videos/preview/mixkit-the-word-feels-written-in-calligraphy-50711-large.mp4  " 
+             type="video/mp4" />
+             Your browser does not support the video tag.
+           </video>
+          </div>
+
+
+
+
+
 
          <div className="">
 

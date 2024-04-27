@@ -7,6 +7,7 @@ const Cinformation = () => {
     return (
         <div className="  mb-32 mt-10">
 
+
             <div>
 
 
@@ -15,10 +16,9 @@ const Cinformation = () => {
                   <h1 className=" animate__animated animate__zoomInDown text-6xl font-bold text-center text-secondary">crafts Information</h1>
                    <p className=' animate__animated animate__rollIn   text-center mt-3 text-2xl text-secondary'>“The beauty of handmade is in the imperfections.”
                    </p>
-
                 </div>
 
-               <div className=' flex justify-center items-center gap-20 mt-10'>
+               <div className=' flex-col md:flex-row lg:flex-row flex justify-center items-center gap-20 mt-10'>
 
 
                 <div className=' animate__animated animate__flip animate__repeat-2 '>
@@ -44,21 +44,79 @@ const Cinformation = () => {
                 </div>
                 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
+
+
+
+
+
+         {/* ---------------------------------------- */}
+
+
+
+
+
+
+
+
+             <div className=' mt-28 '>
+
+              <div className="hero min-h-screen rounded-xl" 
+              style={{backgroundImage: 'url( https://www.shutterstock.com/image-photo/arts-craft-supplies-corrugated-color-600nw-351226619.jpg  )'}}>
+                <div className=" rounded-xl hero-overlay bg-opacity-60"></div>
+                <div className="hero-content text-center text-neutral-content">
+                </div>
+              </div>
+
+
+             </div>
+
+ 
+            
+            <div className='  flex justify-center ' >
+
+             <div className=' animate__animated  -mt-36 grid  md:grid-cols-4 gap-16'>
+
+
+             <div className=' animate__animated animate__fadeInBottomLeft animate__repeat-2 h-[280px] rounded-xl p-3 bg-white w-[200px] border-[1px] border-black shadow-2xl'>
+                <h1 className=' text-6xl font-bold text-secondary'>01</h1>
+                <p className=' text-blue-600 mt-2 text-2xl font-bold'>About us</p>
+                <p className=' text-xl mt-2'>Our company is a best<br></br> crafts company,<br></br> we provide best<br></br> products for client</p>
+             </div>
+            
+
+
+             <div className='  animate__animated animate__fadeInBottomLeft animate__repeat-2 h-[280px] rounded-xl p-3 bg-white w-[200px] border-[1px] border-black shadow-2xl'>
+                <h1 className=' text-6xl font-bold text-secondary'>02</h1>
+                <p className=' text-blue-600 mt-2 text-2xl font-bold'>Our Products</p>
+                <p className=' text-xl mt-2'>Our products is a best<br></br> crafts products,<br></br> we provide best<br></br> products for client</p>
+             </div>
+
+
+             <div className=' animate__animated animate__fadeInBottomRight animate__repeat-2 h-[280px] rounded-xl p-3 bg-white w-[200px] border-[1px] border-black shadow-2xl'>
+                <h1 className=' text-6xl font-bold text-secondary'>03</h1>
+                <p className=' text-blue-600 mt-2 text-2xl font-bold'>Our Items</p>
+                <p className=' text-xl mt-2'> Our company make cards, wedding card, birthday and alls   </p>
+             </div>
+
+             <div className=' animate__animated animate__fadeInBottomRight animate__repeat-2 h-[280px] rounded-xl p-3 bg-white w-[200px] border-[1px] border-black shadow-2xl'>
+                <h1 className=' text-6xl font-bold text-secondary'>04</h1>
+                <p className=' text-blue-600 mt-2 text-2xl font-bold'>Our Clients</p>
+                <p className=' text-xl mt-2'>  Our company give service in world wide 400+ companies and 1500 clients   </p>
+             </div>
+
+             </div>
+
+
+             </div>
+            
+
+
+
+
+
+
+
             
         </div>
     );

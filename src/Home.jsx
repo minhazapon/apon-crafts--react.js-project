@@ -2,6 +2,7 @@ import Banner from "./Banner";
 
 import 'animate.css';
 import Cinformation from "./Cinformation";
+import Slide from "./Slide";
 
 
 
@@ -12,6 +13,7 @@ const Home = () => {
 
                <Banner></Banner>
                <Cinformation></Cinformation>
+               <Slide></Slide>
             
             
         </div>

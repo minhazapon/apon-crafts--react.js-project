@@ -12,6 +12,8 @@
 import CraftsItems from './CraftsItems';
 import AddItems from './AddItems';
 import CraftsList from './CraftsList';
+import Login from './Login';
+import SignUp from './SignUp';
  
  
  const router = createBrowserRouter([
@@ -34,6 +36,14 @@ import CraftsList from './CraftsList';
        {
          path: "/list",
          element:  <CraftsList></CraftsList> ,
+       },
+       {
+         path: "/login",
+         element:  <Login></Login> ,
+       },
+       {
+         path: "/sign",
+         element:  <SignUp></SignUp> ,
        },
      ],
    },

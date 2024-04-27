@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 import 'animate.css';
 
@@ -24,7 +24,7 @@ const Navbar = () => {
     return (
         <div>
 
-                    <div className="  animate__animated animate__zoomInDown animate__repeat-2   ">
+                    <div className="  animate__animated animate__zoomInDown animate__repeat-2  ">
         
                     <div className="navbar bg-base-100">
                     <div className="navbar-start">
@@ -48,9 +48,14 @@ const Navbar = () => {
                         {links}
                       </ul>
                     </div>
+                   
                     <div className="navbar-end">
+                     <Link  to="/login" >
                       <a className="btn bg-secondary text-white  w-[100px] animate__bounceInDown ">Login</a>
+                      </Link>
                     </div>
+                
+
                   </div>
                 
 
