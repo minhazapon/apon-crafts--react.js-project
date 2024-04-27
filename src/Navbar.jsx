@@ -8,11 +8,33 @@ const Navbar = () => {
 
 
     const links = <>
-    
-             <li><NavLink to="/" >Home</NavLink></li>
-             <li><NavLink to="/crafts" >crafts Items</NavLink></li>
-             <li><NavLink to="/add" >Add Craft Items</NavLink></li>
-             <li><NavLink to="/list" >Crafts List</NavLink></li>
+           
+           <div className="tooltip" data-tip="Home">
+           <li><NavLink to="/" >Home</NavLink></li>
+          </div>
+        
+           <div className="tooltip" data-tip="crafts Items">
+
+           <li><NavLink to="/crafts" >crafts Items</NavLink></li>
+
+          </div>
+        
+           <div className="tooltip" data-tip="Add Craft Items">
+           <li><NavLink to="/add" >Add Craft Items</NavLink></li>          </div>
+        
+           <div className="tooltip" data-tip="Crafts List">
+           <li><NavLink to="/list" >Crafts List</NavLink></li>
+          </div>
+        
+
+             {/* <li><NavLink to="/" >Home</NavLink></li> */}
+
+        
+             
+
+
+
+             
             
     </>
 
@@ -22,7 +44,7 @@ const Navbar = () => {
 
 
     return (
-        <div>
+        <div className=" mt-5">
 
                     <div className="  animate__animated animate__zoomInDown animate__repeat-2  ">
         
@@ -39,6 +61,7 @@ const Navbar = () => {
                       <div className=" flex items-center ">
                         <img className=" h-[50px]" src="https://i.ibb.co/S0PPMXh/handcraft-1.png" alt="" />
                       <a className="  -ml-2  btn btn-ghost text-3xl text-secondary font-bold ">Apon Crafts</a>
+             
                       </div>
 
 
