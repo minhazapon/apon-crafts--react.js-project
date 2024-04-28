@@ -6,6 +6,7 @@ import Slide from "./Slide";
 
 
 
+
 const Home = () => {
     return (
         <div>
@@ -14,6 +15,7 @@ const Home = () => {
                <Banner></Banner>
                <Cinformation></Cinformation>
                <Slide></Slide>
+               
             
             
         </div>

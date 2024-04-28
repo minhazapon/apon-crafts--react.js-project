@@ -1,0 +1,73 @@
+
+[ 
+    {
+        "id": 101,
+        "image" : "  https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0MzIwNTE2NTE2MDMwMDg2/decorative-scissors-ideas-and-tips.jpg  ",
+        "name": "Scissors",
+        "Details": "A pair of scissors consists of a pair of blades pivoted so that the sharpened edges slide against each other when the handles (bows) opposite to the pivot are closed.",
+        "price": " 20$ ",
+        "Crafts_shop": "Apon crafts House",
+        "Location": "  World Wide ",
+        "Owner": " Minhazul abedin apon"
+      
+
+    },
+    {
+        "id": 102,
+        "image" : "https://m.media-amazon.com/images/I/81-ir4pUaOS._AC_UF1000,1000_QL80_DpWeblab_.jpg",
+        "name": "Watercolors",
+        "Details": "Here's your chance to create amazing watercolor paintings like you've always wanted and to spark your kids interest in art, with GenCrafts' Watercolor Paint",
+        "price": " 20$ ",
+        "Crafts_shop": "Apon crafts House",
+        "Location": "  World Wide ",
+        "Owner": " Minhazul abedin apon"
+
+    },
+    {
+        "id": 103,
+        "image" : "https://img.freepik.com/premium-photo/top-view-felt-decorations-scissors-beads-kids-diy-crafts-tutorial_290431-18086.jpg?w=740",
+        "name": "Felt",
+        "Details": "Felt is a textile material that is produced by matting, condensing and pressing fibers together.",
+        "price": " 20$ ",
+        "Crafts_shop": "Apon crafts House",
+        "Location": "  World Wide ",
+        "Owner": " Minhazul abedin apon"
+
+     
+   
+    },
+    {
+        "id": 104,
+        "image" : " https://img.freepik.com/free-photo/colorful-pencils-pencil-pot_23-2147847395.jpg?t=st=1714277597~exp=1714281197~hmac=a832c9eec3cafcc1e2625d9c0cc827ad150c31c725aecd694e02ba4ffa775033&w=740",
+        "name": "Pencil",
+        "Details": " This pencil craft builds so many skills! Work on coloring, cutting, and pasting, but also expand skills with a fun pencil theme.",
+        "price": " 20$ ",
+        "Crafts_shop": "Apon crafts House",
+        "Location": "  World Wide ",
+        "Owner": " Minhazul abedin apon"
+ 
+      
+    },
+    {
+        "id": 105,
+        "image" : "https://img.freepik.com/free-photo/elevated-view-woman-s-hand-holding-handmade-paper_23-2147845594.jpg?t=st=1714277763~exp=1714281363~hmac=2e0bf06c74d271c803f117725dcb3bfc62518e28c5b1960bd157896add723e67&w=740",
+        "name": "Tissue Paper",
+        "Details": "Tissue paper is made from the processing of cellulose pulp obtained from wood fiber.",
+        "price": " 20$ ",
+        "Crafts_shop": "Apon crafts House",
+        "Location": "  World Wide ",
+        "Owner": " Minhazul abedin apon"
+    },
+    {
+        "id": 106,
+        "image" : "https://img.freepik.com/premium-photo/four-rolls-glitter-tape-parallel-strips-white-table_142501-687.jpg?w=740",
+        "name": "Tape",
+        "Details": " Craft tape, also known as decorative tape or washi tape, is a type of adhesive tape widely used in crafting, scrapbooking, and DIY projects. Here's some information about it:",
+        "price": " 20$ ",
+        "Crafts_shop": "Apon crafts House",
+        "Location": "  World Wide ",
+        "Owner": " Minhazul abedin apon"
+    }
+  
+   
+  ]

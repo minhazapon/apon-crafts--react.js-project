@@ -110,15 +110,38 @@ const AddItems = () => {
                        <input className=" mt-1 bg-white  p-1  w-[350px]  border-[1px] border-black "
                         placeholder="Enter photo URL" type="url" name="" id="" />
                    </div>
+                   <div>
+                       <h1 className=" text-xl font-bold">rating:</h1>
+                        <input
+                         className=" mt-1 bg-white  p-1  w-[350px]  border-[1px] border-black " 
+                         type="number" name="" id="" placeholder="Add Rating" />
+                   </div>
+                   <div>
+                       <h1 className=" text-xl font-bold">customization- example- yes, no:</h1>
+                        <input
+                         className=" mt-1 bg-white  p-1  w-[350px]  border-[1px] border-black " 
+                         type="number" name="" id="" placeholder="customization-Say yes Or no" />
+                   </div>
+                   <div>
+                       <h1 className=" text-xl font-bold">processing_time
+                        :</h1>
+                        <input
+                         className=" mt-1 bg-white  p-1  w-[350px]  border-[1px] border-black " 
+                         type="number" name="" id="" placeholder="processing_time
+                         " />
+                   </div>
+                   <div>
+                       <h1 className=" text-xl font-bold">stockStatus
+                        :</h1>
+                        <input
+                         className=" mt-1 bg-white  p-1  w-[350px]  border-[1px] border-black " 
+                         type="number" name="" id="" placeholder="stockStatus
+                         " />
+                   </div>
+
                  </div>
 
                  </form>
-
-
-
-
-
-
                  </div>
               
                

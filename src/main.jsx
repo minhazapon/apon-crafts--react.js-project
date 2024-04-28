@@ -14,6 +14,8 @@ import AddItems from './AddItems';
 import CraftsList from './CraftsList';
 import Login from './Login';
 import SignUp from './SignUp';
+import Items from './Items';
+
  
  
  const router = createBrowserRouter([
@@ -28,6 +30,12 @@ import SignUp from './SignUp';
        {
          path: "/crafts",
          element: <CraftsItems></CraftsItems>,
+         loader: () => fetch('card.json') ,
+       },
+       {
+         path: "/crafts/:Id",
+         element:  <Items></Items> ,
+         loader: ({params}) => fetch(`card.json/${params.Id}`) ,
        },
        {
          path: "/add",
