@@ -20,7 +20,7 @@ const CraftsItems = () => {
 
             <div className=" flex justify-center items-center">
 
-            <div className=" mt-10 grid grid-cols-3 gap-10 hover:">
+            <div className=" mt-10 grid  md:grid-cols-3 gap-10 hover:">
 
                 {
                     data.map( data => <CardDetails key={data.id} data={data} ></CardDetails> )

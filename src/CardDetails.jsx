@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const CardDetails = ({data}) => {
 
-    const { id, image, name, Details, price, Crafts_shop, Location, Owner } = data
+    const { id, image, name, Details, } = data
 
     return (
         <div>
@@ -23,11 +23,13 @@ const CardDetails = ({data}) => {
                      <h2 className="card-title  text-white">name: {name} </h2>
                      <p className=" text-xl text-white"> Details: {Details} </p>
 
-                     <Link to={`/crafts/${id}`}  >
+                     
                      <div className="card-actions">
+                      <Link to={`/crafts/${id}`}  >
                        <button className="btn btn-secondary w-[300px]"> View Details </button>
+                       </Link>
                      </div>
-                     </Link>
+                     
 
 
                    </div>

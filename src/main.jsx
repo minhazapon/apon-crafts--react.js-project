@@ -30,12 +30,13 @@ import Items from './Items';
        {
          path: "/crafts",
          element: <CraftsItems></CraftsItems>,
-         loader: () => fetch('card.json') ,
+         loader: () => fetch('https://mocki.io/v1/ae3e06b2-f951-4ba5-8b7c-c2c6fa9722cb') ,
        },
        {
          path: "/crafts/:Id",
          element:  <Items></Items> ,
-         loader: ({params}) => fetch(`card.json/${params.Id}`) ,
+         loader: ({params}) => fetch(`/https://mocki.io/v1/ae3e06b2-f951-4ba5-8b7c-c2c6fa9722cb/${params.Id}`) ,
+         
        },
        {
          path: "/add",
