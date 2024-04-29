@@ -10,7 +10,7 @@ const ShopData = ({handleP}) => {
 
      useEffect( () => {
 
-        fetch('card.json')
+        fetch('https://mocki.io/v1/1efd8841-b4be-4a5f-83c8-5208f88bb768')
          .then(res => res.json())
          .then(data => setItems(data))
 
@@ -26,14 +26,10 @@ const ShopData = ({handleP}) => {
         <div className=" mt-10 mb-10">
 
            
-            
-
-
-
         
         <div className=" flex justify-center items-center ">
           
-        <div className=" grid  md:grid-cols-2 gap-6">
+        <div className="   grid  md:grid-cols-2 gap-6">
         
             {
 

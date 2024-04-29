@@ -1,16 +1,17 @@
+import OrderDetails from "./OrderDetails";
 
 
 
 const Order = ({products}) => {
     return (
-        <div>
+        <div className=" mt-10">
 
-            <div>
+            
 
             <div className=" ">
               
 
-              <h1 className=" text-2xl font-bold mt-16 flex justify-center items-center"> Want to Order:   </h1>
+              <h1 className=" text-2xl font-bold mt-16 flex justify-center items-center"> Want to Order: {products.length}  </h1>
 
             
 
@@ -19,16 +20,24 @@ const Order = ({products}) => {
 
                  <h1 className=" text-xl font-bold text-slate-400"> Name  </h1>
                  
-                 <h1 className=" text-xl font-bold text-slate-400"> time  </h1>
+                 <h1 className=" text-xl font-bold text-slate-400"> Price  </h1>
                  
-                 <h1 className=" text-xl font-bold text-slate-400"> calories </h1>
-
-
               </div>
             
-        </div>
+            </div>
+
+            <div>
+
+               {
+
+                  products.map( products => <OrderDetails key={products.id} products={products}></OrderDetails> )
+
+               }
+
 
             </div>
+
+         
             
         </div>
     );
