@@ -3,7 +3,7 @@ import SData from "./SData";
 
 
 
-const ShopData = () => {
+const ShopData = ({handleP}) => {
 
 
      const [items, setItems] = useState([]);
@@ -31,13 +31,13 @@ const ShopData = () => {
 
 
         
-        <div>
+        <div className=" flex justify-center items-center ">
           
-        <div className="">
+        <div className=" grid  md:grid-cols-2 gap-6">
         
             {
 
-                items.map( items => <SData key={items.id} items={items}></SData>  )
+                items.map( items => <SData key={items.id} items={items} handleP={handleP}  ></SData>  )
             
             }
 
