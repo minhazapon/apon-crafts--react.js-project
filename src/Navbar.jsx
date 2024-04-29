@@ -15,13 +15,16 @@ const Navbar = () => {
           </div>
         
            <div className="tooltip" data-tip="crafts Items">
-
            <li><NavLink to="/crafts" >crafts Items</NavLink></li>
-
           </div>
         
            <div className="tooltip" data-tip="Add Craft Items">
-           <li><NavLink to="/add" >Add Craft Items</NavLink></li>          </div>
+           <li><NavLink to="/add" >Add Craft Items</NavLink></li> 
+           </div>
+           
+           <div className="tooltip" data-tip="Craft shop">
+           <li><NavLink to="/shop" >Craft shop</NavLink></li> 
+           </div>
         
            <div className="tooltip" data-tip="Crafts List">
            <li><NavLink to="/list" >Crafts List</NavLink></li>
@@ -30,6 +33,7 @@ const Navbar = () => {
            <div className="tooltip" data-tip="Crafts Information">
            <li><NavLink to="/info" >Crafts Information</NavLink></li>
           </div>
+
            <div className="tooltip" data-tip="Crafts Information">
            <li><NavLink to="/gallery" >Gallery</NavLink></li>
           </div>

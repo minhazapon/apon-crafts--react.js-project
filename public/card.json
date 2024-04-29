@@ -8,7 +8,9 @@
         "price": " 20$ ",
         "Crafts_shop": "Apon crafts House",
         "Location": "  World Wide ",
-        "Owner": " Minhazul abedin apon"
+        "Owner": " Minhazul abedin apon",
+        "rating": 5.00,
+        "stockStatus": "available"
       
 
     },
@@ -20,7 +22,11 @@
         "price": " 20$ ",
         "Crafts_shop": "Apon crafts House",
         "Location": "  World Wide ",
-        "Owner": " Minhazul abedin apon"
+        "Owner": " Minhazul abedin apon",
+        "rating": 5.00,
+        "stockStatus": "available"
+
+
 
     },
     {
@@ -31,7 +37,10 @@
         "price": " 20$ ",
         "Crafts_shop": "Apon crafts House",
         "Location": "  World Wide ",
-        "Owner": " Minhazul abedin apon"
+        "Owner": " Minhazul abedin apon",
+        "rating": 5.00,
+        "stockStatus": "available"
+
 
      
    
@@ -44,7 +53,11 @@
         "price": " 20$ ",
         "Crafts_shop": "Apon crafts House",
         "Location": "  World Wide ",
-        "Owner": " Minhazul abedin apon"
+        "Owner": " Minhazul abedin apon",
+        "rating": 5.00,
+        "stockStatus": "available"
+
+
  
       
     },
@@ -56,7 +69,11 @@
         "price": " 20$ ",
         "Crafts_shop": "Apon crafts House",
         "Location": "  World Wide ",
-        "Owner": " Minhazul abedin apon"
+        "Owner": " Minhazul abedin apon",
+        "rating": 5.00,
+        "stockStatus": "available"
+
+
     },
     {
         "id": 106,
@@ -66,8 +83,12 @@
         "price": " 20$ ",
         "Crafts_shop": "Apon crafts House",
         "Location": "  World Wide ",
-        "Owner": " Minhazul abedin apon"
-    }
+        "Owner": " Minhazul abedin apon",
+        "rating": 5.00,
+        "stockStatus": "available"
+
+
+     }
   
    
   ]

@@ -7,8 +7,8 @@
    createBrowserRouter,
    RouterProvider,
  } from "react-router-dom";
- import Root from './Root';
- import Home from './Home';
+import Root from './Root';
+import Home from './Home';
 import CraftsItems from './CraftsItems';
 import AddItems from './AddItems';
 import CraftsList from './CraftsList';
@@ -22,6 +22,8 @@ import Wood from './Table/Wood';
 import Bag from './Table/Bag';
 import Paper from './Table/Paper';
 import Gallery from './Gallery/Gallery';
+import CraftsShop from './crafts shop/CraftsShop';
+
 
  
  
@@ -88,6 +90,11 @@ import Gallery from './Gallery/Gallery';
          path: "/gallery",
          element: <Gallery></Gallery> ,
        },
+       {
+         path: "/shop",
+         element: <CraftsShop></CraftsShop> ,
+       },
+      
      ],
    },
  ]);
