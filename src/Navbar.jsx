@@ -26,6 +26,13 @@ const Navbar = () => {
            <div className="tooltip" data-tip="Crafts List">
            <li><NavLink to="/list" >Crafts List</NavLink></li>
           </div>
+
+           <div className="tooltip" data-tip="Crafts Information">
+           <li><NavLink to="/info" >Crafts Information</NavLink></li>
+          </div>
+           <div className="tooltip" data-tip="Crafts Information">
+           <li><NavLink to="/gallery" >Gallery</NavLink></li>
+          </div>
         
 
              {/* <li><NavLink to="/" >Home</NavLink></li> */}

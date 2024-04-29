@@ -27,7 +27,7 @@ const AddItems = () => {
 
 
 
-            <div className=" mb-40 mt-40">
+            <div className=" mb-10 mt-40">
              
              <Link to="/" >
 
@@ -151,13 +151,41 @@ const AddItems = () => {
                   <ToastContainer />      
                  </div>
                  </div>
-                
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            
+            <div>
+
+              
+                 
+             <Link to="/up" >
+             
+             <div className=" text-white bg-secondary btn  flex items-center mb-5 mt-5 gap-3">
+             
+               <h1>Go for Update Your Crafts</h1>
+               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+            </svg>
+             </div>
+             
+             </Link>
+
+
+
+
+
+
+
 
             </div>
-            </div>
-            </div>
-            </div>
-            </div>
+            
+
+
+
             
         </div>
     );

@@ -15,6 +15,13 @@ import CraftsList from './CraftsList';
 import Login from './Login';
 import SignUp from './SignUp';
 import Items from './Items';
+import Up from './Up';
+import CraftsInformation from './CraftsInformation';
+import Card from './Table/Card';
+import Wood from './Table/Wood';
+import Bag from './Table/Bag';
+import Paper from './Table/Paper';
+import Gallery from './Gallery/Gallery';
 
  
  
@@ -36,7 +43,6 @@ import Items from './Items';
          path: "/crafts/:Id",
          element:  <Items></Items> ,
          loader: ({params}) => fetch(`/https://mocki.io/v1/ae3e06b2-f951-4ba5-8b7c-c2c6fa9722cb/${params.Id}`) ,
-         
        },
        {
          path: "/add",
@@ -53,6 +59,34 @@ import Items from './Items';
        {
          path: "/sign",
          element:  <SignUp></SignUp> ,
+       },
+       {
+         path: "/up",
+         element:  <Up></Up> ,
+       },
+       {
+         path: "/info",
+         element: <CraftsInformation></CraftsInformation> ,
+       },
+       {
+         path: "/card",
+         element: <Card></Card> ,
+       },
+       {
+         path: "/wood",
+         element: <Wood></Wood> ,
+       },
+       {
+         path: "/bag",
+         element: <Bag></Bag> ,
+       },
+       {
+         path: "/paper",
+         element: <Paper></Paper> ,
+       },
+       {
+         path: "/gallery",
+         element: <Gallery></Gallery> ,
        },
      ],
    },
