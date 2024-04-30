@@ -2,13 +2,16 @@ import { Link, NavLink } from "react-router-dom";
 
 import 'animate.css';
 
+
+// ---------------theme
 import { useEffect, useState } from 'react'
+// -----------------------------------------
 
 
 
 const Navbar = () => {
 
-
+// ------------------------------------theme
   const [theme, setTheme] = useState('light')
   
   // update state on toggle
@@ -28,7 +31,7 @@ const Navbar = () => {
     // add custom data-theme attribute
     document.querySelector('html').setAttribute('data-theme', localTheme)
   }, [theme])
-
+// --------------------------------------
 
 
     const links = <>
@@ -49,9 +52,7 @@ const Navbar = () => {
            <li><NavLink to="/shop" >Craft shop</NavLink></li> 
            </div>
         
-           <div className="tooltip" data-tip="Crafts List">
-           <li><NavLink to="/list" >Crafts List</NavLink></li>
-          </div>
+           
 
            <div className="tooltip" data-tip="Crafts Information">
            <li><NavLink to="/info" >Crafts Information</NavLink></li>
@@ -110,6 +111,9 @@ const Navbar = () => {
 
                     
                     <div className="navbar-end flex items-center gap-1">
+
+
+{/* ---------------------theme */}
                     <label htmlFor="Toggle1" className="inline-flex items-center space-x-4 cursor-pointer text-gray-100">
 
                      	<span className="relative">
@@ -119,6 +123,11 @@ const Navbar = () => {
                      	</span>
                      	
                      </label>
+{/* ------------------------------------                      */}
+
+
+
+
                      <Link  to="/login" >
                       <a className="btn bg-secondary text-white  w-[100px] animate__bounceInDown ">Login</a>
                       </Link>
