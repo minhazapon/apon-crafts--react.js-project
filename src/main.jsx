@@ -23,6 +23,12 @@ import Bag from './Table/Bag';
 import Paper from './Table/Paper';
 import Gallery from './Gallery/Gallery';
 import CraftsShop from './crafts shop/CraftsShop';
+import Scissors from '../ItemsDetails/Scissors';
+import W2 from '../ItemsDetails/W2';
+import F3 from '../ItemsDetails/F3';
+import P4 from '../ItemsDetails/P4';
+import T5 from '../ItemsDetails/T5';
+import Tape6 from '../ItemsDetails/Tape6';
 
 
  
@@ -39,12 +45,6 @@ import CraftsShop from './crafts shop/CraftsShop';
        {
          path: "/crafts",
          element: <CraftsItems></CraftsItems>,
-         loader: () => fetch('https://mocki.io/v1/ae3e06b2-f951-4ba5-8b7c-c2c6fa9722cb') ,
-       },
-       {
-         path: "/crafts/:Id",
-         element:  <Items></Items> ,
-         loader: ({params}) => fetch(`/https://mocki.io/v1/ae3e06b2-f951-4ba5-8b7c-c2c6fa9722cb/${params.Id}`) ,
        },
        {
          path: "/add",
@@ -93,6 +93,30 @@ import CraftsShop from './crafts shop/CraftsShop';
        {
          path: "/shop",
          element: <CraftsShop></CraftsShop> ,
+       },
+       {
+         path: "/s",
+         element: <Scissors></Scissors> ,
+       },
+       {
+         path: "/w",
+         element: <W2></W2> ,
+       },
+       {
+         path: "/f",
+         element: <F3></F3> ,
+       },
+       {
+         path: "/p",
+         element: <P4></P4> ,
+       },
+       {
+         path: "/t",
+         element: <T5></T5> ,
+       },
+       {
+         path: "/tape",
+         element: <Tape6></Tape6> ,
        },
       
      ],

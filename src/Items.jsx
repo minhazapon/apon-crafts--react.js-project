@@ -7,22 +7,15 @@ const Items = () => {
 
     const items = useLoaderData();
 
- 
+    console.log(items)
     
 
-    //  const { id, image, name, Details, price, Crafts_shop, Location, Owner } = items
+     const { id, image, name, Details, price, Crafts_shop, Location, Owner } = items
 
     return (
         <div className=" mt-10 mb-10">
 
-
-             <div>
-
-             
-            <h1> name: {items.name} </h1>
-          
-
-             </div>
+            <p> {Details} </p>
             
             
         </div>
