@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import 'animate.css';
 import Cinformation from "./Cinformation";
 import Slide from "./Slide";
+import Team from "./Team";
 
 
 
@@ -15,6 +16,7 @@ const Home = () => {
                <Banner></Banner>
                <Cinformation></Cinformation>
                <Slide></Slide>
+               <Team></Team>
                
             
             
