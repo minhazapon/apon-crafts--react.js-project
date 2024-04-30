@@ -2,6 +2,7 @@
 import 'animate.css';
 
 import Marquee from "react-fast-marquee";
+import { Link } from 'react-router-dom';
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -39,6 +40,20 @@ const Up = () => {
         <div className=' mb-16 mt-16 '>
             
                    <div>
+
+                   <Link to="/" >
+
+<div className=" text-white bg-secondary btn  flex items-center mb-5 mt-5 gap-3">
+
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+<path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+</svg>
+
+
+  <h1>back to Home</h1>
+</div>
+
+</Link>
 
 
                     <div  className=" flex-col md:flex-row bg-slate-100  border-[1px] border-secondary p-5 rounded-xl" >

@@ -2,9 +2,31 @@
 import 'animate.css';
 
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const Footer = () => {
+
+  const handleF = e => {
+      
+    e.preventDefault();
+     
+
+     console.log(e.target.name.value)
+     console.log(e.target.email.value)
+     console.log(e.target.message.value)
+
+    
+     
+     toast("Update items");
+
+   }
+
+
+
+
+
     return (
 
          <div className=' border-[1px] border-secondary rounded-xl  '>
@@ -29,26 +51,28 @@ const Footer = () => {
 
 
               <section className=" p-4 text-gray-100">
-              	<form noValidate="" className="container  h-[450px] w-[400px] max-w-xl p-8 mx-auto space-y-6 rounded-md">
+              	<form onSubmit={handleF}  className="container  h-[450px] w-[400px] max-w-xl p-8 mx-auto space-y-6 rounded-md">
               		<h2 className="w-full text-3xl font-bold leading-tight  text-secondary ">Contact us</h2>
               		<div>
               			<label htmlFor="name" className="block mb-1 ml-1 text-black">Name</label>
-              			<input id="name" type="text" placeholder="Your name" required=""
+              			<input name='name' id="name" type="text" placeholder="Your name" required=""
                     className="block w-[300px] p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-violet-400 bg-white " />
               		</div>
               		<div>
               			<label htmlFor="email" className="block mb-1 ml-1 text-black">Email</label>
-              			<input id="email" type="email" placeholder="Your email" required=""
+              			<input name='email' id="email" type="email" placeholder="Your email" required=""
                      className="block w-[300px] p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-violet-400 bg-white " />
               		</div>
               		<div>
               			<label htmlFor="message" className="block mb-1 text-black ml-1">Message</label>
-              			<textarea id="message" type="text" placeholder="Message..."
-                     className="block w-[300px] p-2 rounded autoexpand focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-violet-400 bg-white "></textarea>
+              			<textarea  name='message' id="message" type="text" placeholder="Message..."
+                     className="block w-[300px] p-2 rounded autoexpand focus:outline-none focus:ring focus:ring-opacity-25 text-black focus:ring-violet-400 bg-white "></textarea>
               		</div>
               		<div>
               			<button type="submit" className=" btn  w-[300px] px-4 py-2 font-bold rounded shadow focus:outline-none focus:ring hover:ring focus:ring-opacity-50 bg-secondary focus:ring-violet-400 hover:ring-violet-400 text-white">Send</button>
+                    <ToastContainer /> 
               		</div>
+                     
               	</form>
               </section>
                       
@@ -92,7 +116,7 @@ const Footer = () => {
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
   </nav> 
-  <form>
+  <form onSubmit={handleF} >
     <div className=' flex items-center gap-3'>
     <img className=' h-[40px]' src="https://i.ibb.co/S0PPMXh/handcraft-1.png" alt="" />
     <h6 className=" text-4xl font-bold text-secondary ">Apon Crafts</h6> 
@@ -102,7 +126,7 @@ const Footer = () => {
         <span className="label-text">Enter your email address</span>
       </label> 
       <div className="join">
-        <input type="text" placeholder="username@site.com" className="input input-bordered join-item" /> 
+        <input name='sub' type="text" placeholder="username@site.com" className="input input-bordered join-item" /> 
         <button className="btn btn-secondary join-item">Subscribe</button>
       </div>
     </fieldset>
