@@ -19,7 +19,7 @@ const Footer = () => {
 
     
      
-     toast("Update items");
+     toast("contact added");
 
    }
 

@@ -28,7 +28,7 @@ const AddItems = () => {
      console.log(e.target.time.value)
      console.log(e.target.stock.value)
      
-     toast("Update items");
+     toast("add items");
 
    }
 
