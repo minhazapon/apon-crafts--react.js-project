@@ -7,7 +7,7 @@ const CraftsInformation = () => {
         <div className=" mb-10">
             <div>
 
-                          <div className="  animate__animated animate__rotateIn animate__repeat-2 container p-2 mx-auto sm:p-4 text-gray-100">
+                          <div className=" flex-col md:flex-row lg:flex-row  animate__animated animate__rotateIn animate__repeat-2 container p-2 mx-auto sm:p-4 text-gray-100">
 
                     <div className=" flex items-center gap-2">       
                     <img className=" h-[60px]" src="https://i.ibb.co/w7n6fK4/handcraft-2.png" alt="" />
@@ -15,7 +15,7 @@ const CraftsInformation = () => {
                     </div> 
 
 
-              	<div className="overflow-x-auto">
+              	<div className="overflow-x-auto  flex-col md:flex-row lg:flex-row ">
               		<table className="min-w-full text-xs">
               			<colgroup>
               				<col />
