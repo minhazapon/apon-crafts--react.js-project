@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Order from "./Order";
 import ShopData from "./ShopData";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -14,6 +16,7 @@ const CraftsShop = () => {
         const newItems = [...products, items]
 
         setProcuts(newItems)
+        toast('Order-Done')
 
 
      }
@@ -29,6 +32,7 @@ const CraftsShop = () => {
               <ShopData handleP={handleP}  ></ShopData>
               <Order  products={products} ></Order>
               </div>
+              <ToastContainer></ToastContainer>
               
             </div>
             
